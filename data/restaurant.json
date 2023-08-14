@@ -1,0 +1,16 @@
+[
+  {
+    "name": "Test",
+    "address": "Teststreet 5, Testcity",
+    "cuisine": "Italian",
+    "website": "https://mytest.com",
+    "description": "It's awesome!"
+  },
+  {
+    "name": "Restaurant 3",
+    "address": "Awesomestreet 5, Mycity",
+    "cuisine": "German",
+    "website": "https://awesome.com",
+    "description": "It's amazing! Of Course!"
+  }
+]
