@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <%- include('includes/head') %>
+  </head>
+  <body>
+    <!-- 다른 파일의 html코드를 가져옴 (상대경로) -->
+    <!-- 동적 내용이 있다면 '경로', {} 로 추가가능 -->
+    <%- include('includes/header') %> <%- include('includes/side-drawer') %>
+    <main>
+      <h1>Something went wrong!</h1>
+      <p>
+        Unfortunately, something went wrong on the server. - we're doing our
+        best to fix it as quickly as possible!
+      </p>
+    </main>
+  </body>
+</html>

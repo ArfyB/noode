@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <%- include('includes/head') %>
+    <link rel="stylesheet" href="/styles/restaurants.css" />
+  </head>
+  <body>
+    <!-- 다른 파일의 html코드를 가져옴 (상대경로) -->
+    <!-- 동적 내용이 있다면 '경로', {} 로 추가가능 -->
+    <%- include('includes/header') %>
+    <%- include('includes/side-drawer') %>
+    <main>
+      <h1><%= restaurant.name %></h1>
+      <p><%= restaurant.cuisine %> | <%= restaurant.address %></p>
+      <p><%= restaurant.description %></p>
+      <p><a href="<%= restaurant.website %>">View Website</a></p>
+    </main>
+  </body>
+</html>

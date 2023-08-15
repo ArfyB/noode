@@ -1,5 +1,6 @@
 [
   {
+    "id": "r1",
     "name": "Test",
     "address": "Teststreet 5, Testcity",
     "cuisine": "Italian",
@@ -7,10 +8,19 @@
     "description": "It's awesome!"
   },
   {
+    "id": "r2",
     "name": "Restaurant 3",
     "address": "Awesomestreet 5, Mycity",
     "cuisine": "German",
     "website": "https://awesome.com",
     "description": "It's amazing! Of Course!"
+  },
+  {
+    "name": "Munich Fines Restaurant",
+    "address": "Greatstreet 5, Munich",
+    "cuisine": "German",
+    "website": "https://munich-awesome.com",
+    "description": "It's in Munich, that's where I live!",
+    "id": "a4abf1c0-f16f-4155-b8ae-e7679313c92e"
   }
 ]
