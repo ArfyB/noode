@@ -66,6 +66,8 @@ router.get("/recommend", function (req, res) {
 router.post("/recommend", function (req, res) {
   const restaurant = req.body;
 
+  // 이렇게도 사용가능.
+  // const { v4: restaurant.id } = require('uuid');
   restaurant.id = uuid.v4();
   //객체에 속성 추가
   //v4 = 무작위 생성이지만 고유함을 보장.
